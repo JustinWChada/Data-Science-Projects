@@ -44,7 +44,8 @@ Tech stack:
 - Scikit‑learn
 - Scipy.stats
 
-Github Repo: 
+Github Repo: [AI Usage Dataset Analysis](https://github.com/JustinWChada/Data-Science-Projects/tree/main/AI%20Usage%20Dataset)
+
 
 Next steps:  
 To continue learning more on EDA, Data Cleaning and Modelling on other dataset in the future to grow an analytical mindset as a Data Scientist
