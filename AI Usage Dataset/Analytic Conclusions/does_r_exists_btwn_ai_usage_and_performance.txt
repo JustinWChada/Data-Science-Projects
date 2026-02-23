@@ -1,0 +1,30 @@
+Reference Code:
+>>> ai_usage_relationships.py
+
+
+>>> Analysis (line 11 - line 21)
+Spearman Correlation between AI Use Hours Per Day and Final Exam Scores: -0.0027718886334318965, P-value: 0.8042218451527122
+- This indicates no meaningful monotonic relationship between AI usage hours and exam scores.
+- The negative sign suggests a very slight inverse trend (more AI use → slightly lower scores), but the effect is so tiny it’s essentially negligible
+- The p-value (0.804) is much greater than the common threshold of 0.05.
+- This means the observed correlation is not statistically significant — it could easily be due to random chance
+
+- AI use hours per day do not appear to influence exam scores in this dataset.
+- Students who used AI more did not consistently perform better or worse than those who used it less.
+- Other factors (like study hours, prior knowledge, or exam difficulty) are likely more important predictors of exam performance
+
+
+>>> Further Analysis on AI usage time and final exam score (line 45 - line 51):
+- AI usage time has no meaningful relationship with exam scores in this dataset
+
+
+>>> Further Analysis pn Correlation between AI Study Time and Academic Performance with regression line (line 58 - line 75):
+Neutral effect: AI study time, at least in this dataset, does not appear to influence academic performance. Students who spent more time with AI tools did not perform better or worse overall.
+Flat regression line: The red line is essentially horizontal, which means there is no detectable trend between AI study time and academic performance.
+Scatter distribution: The blue data points are spread without any clear upward or downward pattern. This reinforces the idea that increased AI study time does not consistently lead to higher or lower scores.
+Reference Img: Correlation - AI Study Time vs Final Score.png
+
+
+>>> Further Analysis on AI usage time and final exam score (line 87 - line 89):
+- The chi-square test reinforces the earlier findings: AI usage is statistically independent of exam performance categories. 
+- Both continuous (time spent) and categorical (use vs. non-use) analyses point to the same conclusion thatAI usage is not a predictor of academic success here.

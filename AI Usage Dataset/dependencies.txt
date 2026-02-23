@@ -1,0 +1,2 @@
+pip install pandas scikit-learn matplotlib seaborn
+pip install -U numpy scipy joblib threadpoolctl scikit-learn

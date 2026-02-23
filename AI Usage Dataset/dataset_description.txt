@@ -1,0 +1,9 @@
+This dataset contains 1,000 rows and 12 columns, capturing how Artificial Intelligence–based learning tools influence a student’s academic performance. It is structured to help researchers, educators, and data scientists analyze the measurable impact of AI-driven study platforms on student learning outcomes.
+The data includes student demographics, AI tool usage frequency, time spent with AI-based learning platforms, performance metrics, engagement behavior, and self-reported learning improvements. These variables allow for in-depth analysis on topics such as personalized learning effectiveness, academic score improvement, AI-driven motivation boosts, and changes in study habits.
+With its rich feature set, this dataset is ideal for machine learning models, educational analytics, behavioral research, causal inference studies, and prediction projects. Users can perform tasks such as student performance prediction, clustering based on AI usage patterns, trend analysis, or evaluating the effectiveness of AI-powered learning systems across different groups of learners
+
+Example Use Cases:
+✅ Predicting students’ exam scores based on AI tool engagement and study habits.
+✅ Analyzing which AI-driven interventions lead to the highest improvement in learning outcomes.
+✅ Grouping students into clusters based on AI usage patterns to personalize recommendations.
+✅ Evaluating the correlation between AI study time and overall academic performance.

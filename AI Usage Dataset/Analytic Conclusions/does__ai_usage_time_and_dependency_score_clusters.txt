@@ -1,0 +1,10 @@
+Reference Code:
+>>> ai_usage_student_clusters_2.py
+
+
+>>> Analysis:
+The graph suggests that AI dependency is not simply a function of usage time. 
+Instead, students fall into distinct clusters of behavior, which could be useful for tailoring interventions 
+e.g., supporting highly dependent users differently than strategic, low-dependency users
+
+Image: Clusters by AI Usage Time and Dependency.png

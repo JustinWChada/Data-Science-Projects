@@ -1,0 +1,7 @@
+Conclusion: 
+>>> From the bar and scatter plot, it appears that there is no significant difference in final exam scores between students who use AI tools and those who do not. The distribution of final scores for both groups seems to be similar, suggesting that AI usage may not have a strong impact on student performance in this dataset. However, further statistical analysis would be needed to confirm this observation.
+>>> It is also observed that there seems to be no clear correlation between study hours per day and final exam scores, 
+>>> as well as between AI usage time and final exam scores. The scatter plots do not show a strong positive or negative trend, indicating that other factors may be influencing student performance more significantly than study hours or AI usage time.
+
+Reference Code: 
+>>> ai_usage_charts.py

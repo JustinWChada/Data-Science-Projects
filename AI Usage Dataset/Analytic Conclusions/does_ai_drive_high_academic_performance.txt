@@ -1,0 +1,80 @@
+Reference: ai_usage_driven_interventions.py 
+
+
+Firstly (line 23 - line 92):
+Students who use AI as an interactive academic assistant (homework, coding, doubt solving) show 
+higher improvement rates and slightly stronger academic performance compared to students who use AI 
+passively for note generation.
+AI effectiveness depends more on HOW it is used than simply WHETHER it is used.
+
+
+>>> Further Analysis (line 102 - line 123):
+ANOVA F-statistic: 0.7975719815478913
+ANOVA p-value: 0.5265472363366541
+Students within the same AI usage category differ more from each other
+than the average difference between categories. That’s already a strong signal that groups are not meaningfully different.
+We fail to reject the null hypothesis. The null hypothesis in ANOVA says: All group means are equal.
+So the result means: There is no statistically significant difference in improvement rate across AI usage purposes.
+
+
+>>> Secondly:
+The dataset suggests:
+The way AI is used (purpose) does not significantly impact improvement rate, at least in this sample.
+AI usage purpose may not matter as much as we think.
+Or sample size may be too small.
+Or effect size is small.
+
+Note: 
+Small Sample Size:
+If groups are small, ANOVA has low power.
+Effect Is Very Small:
+There may be differences, but tiny ones.
+High Within-Group Variation:
+Students vary a lot individually.
+
+
+>>> Further Analysis after printing the value_counts and standard deviation (line 148 & 149)
+Final Conclusion:
+There is no evidence that improvement rate differs based on AI usage purpose.
+This does NOT mean: AI has no effect. Or groups are exactly equal.
+It means: Based on my data, we do not have enough evidence to prove a difference.
+
+
+>>> Further Analysis after printing the usage purpose and their improvement rate (line 160 & 175)
+The internal variability (SD ≈ 17) is substantially larger than the mean differences between 
+groups (≈ 0.8), resulting in a very small effect size and heavy distributional overlap.
+
+The internal variability (SD ≈ 17) is substantially larger than the mean differences 
+between groups (≈ 0.8), resulting in a very small effect size and heavy distributional overlap.
+
+Given:
+Large sample size (~1300 per group)
+High internal standard deviation (~17)
+Very small mean differences (~0.8)
+Non-significant ANOVA (p = 0.53)
+
+We conclude:
+AI usage purpose does not meaningfully impact improvement rate in this dataset. 
+Most variation in improvement is due to individual differences rather than usage category.
+
+This dataset suggests:
+Improvement rate is driven more by:
+- Individual ability
+- Motivation
+- Study behavior
+- Other unmeasured factors
+
+Not by AI usage purpose category.
+
+
+>>> Further Analysis after printing imrpovement scores vs AI used (line 206 - line 226):
+On the graph it shows a uniform or constant imrpovement across all the AI tools used for all the categories. 
+The type of AI used does not affect the improvement scores. 
+This suggests that the specific AI tool used may not be a critical factor in driving improvement, and 
+that other factors such as how the AI is used (no it doesnt because i have analysed it above ) or individual differences may play a more 
+significant role in determining improvement outcomes.
+
+
+>>> Further Analysis after printing ANOVA statistics and value counts and standard deviation (line 233 - line 244):
+The reason for the slight differences in the improvement rates across AI tools could be random variation or noise in the data,
+especially given the high standard deviations and non-significant ANOVA result (p = 0.48)

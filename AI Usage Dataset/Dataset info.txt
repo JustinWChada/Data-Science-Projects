@@ -1,0 +1,38 @@
+This dataset contains 1,000 rows and 12 columns, capturing how Artificial Intelligence–based learning tools influence a student’s academic performance. It is structured to help researchers, educators, and data scientists analyze the measurable impact of AI-driven study platforms on student learning outcomes.
+The data includes student demographics, AI tool usage frequency, time spent with AI-based learning platforms, performance metrics, engagement behavior, and self-reported learning improvements. These variables allow for in-depth analysis on topics such as personalized learning effectiveness, academic score improvement, AI-driven motivation boosts, and changes in study habits.
+With its rich feature set, this dataset is ideal for machine learning models, educational analytics, behavioral research, causal inference studies, and prediction projects. Users can perform tasks such as student performance prediction, clustering based on AI usage patterns, trend analysis, or evaluating the effectiveness of AI-powered learning systems across different groups of learners
+
+Example Use Cases:
+✅ Predicting students’ exam scores based on AI tool engagement and study habits.
+✅ Analyzing which AI-driven interventions lead to the highest improvement in learning outcomes.
+✅ Grouping students into clusters based on AI usage patterns to personalize recommendations.
+✅ Evaluating the correlation between AI study time and overall academic performance.
+
+
+
+ 0   student_id                       8000 non-null   int64
+ 1   age                              8000 non-null   int64
+ 2   gender                           8000 non-null   object
+ 3   grade_level                      8000 non-null   object
+ 4   study_hours_per_day              8000 non-null   float64
+ 5   uses_ai                          8000 non-null   int64
+ 6   ai_usage_time_minutes            8000 non-null   int64
+ 7   ai_tools_used                    6638 non-null   object
+ 8   ai_usage_purpose                 6654 non-null   object
+ 9   ai_dependency_score              8000 non-null   int64
+ 10  ai_generated_content_percentage  8000 non-null   int64
+ 11  ai_prompts_per_week              8000 non-null   int64
+ 12  ai_ethics_score                  8000 non-null   int64
+ 13  last_exam_score                  8000 non-null   int64
+ 14  assignment_scores_avg            8000 non-null   float64
+ 15  attendance_percentage            8000 non-null   float64
+ 16  concept_understanding_score      8000 non-null   int64
+ 17  study_consistency_index          8000 non-null   float64
+ 18  improvement_rate                 8000 non-null   float64
+ 19  sleep_hours                      8000 non-null   float64
+ 20  social_media_hours               8000 non-null   float64
+ 21  tutoring_hours                   8000 non-null   float64
+ 22  class_participation_score        8000 non-null   int64
+ 23  final_score                      8000 non-null   float64
+ 24  passed                           8000 non-null   int64
+ 25  performance_category             8000 non-null   object

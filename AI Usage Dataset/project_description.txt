@@ -1,0 +1,9 @@
+I downloaded this dataset from Kaggle after finishing Hypothesis and Regression in Statistics, an attempt to apply those concepts in practice
+
+AI Students Usage.pbix is an attempt to also use PowerBi to visualize the data
+
+All code is in the folder named "Code" and the file names makes it easy to know what the code inside does
+
+All charts from the Code are in the folder named "Charts" and the file names are such that it is easier to know what the chart is about
+
+All the conclusions are in the folder "Analytic Conclusions" and all the files start with "does..."

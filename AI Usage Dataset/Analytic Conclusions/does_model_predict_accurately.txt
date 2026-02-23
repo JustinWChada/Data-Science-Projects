@@ -1,0 +1,35 @@
+Reference Code:
+>>> ai_final_score_model.py
+
+>>> Results from Model
+Linear R² (Training): 0.8661143306333642
+Linear R² (Testing): 0.8584840996953075
+Linear MSE: 24.784690328793392
+
+Random Forest R² (Train):  0.978015952686852
+Random Forest R² (Test):  0.8347099330003181
+Random Forest MSE:  28.948429937500002
+
+>> Analysis for the Linear Model:
+- Very strong fit both in training and testing.
+- The model generalizes well, meaning the linear relationship between predictors and exam scores is consistent
+
+For the MSE:
+- On average, predictions are off by about 25 points squared error.
+- Indicates reasonably good accuracy given the scale of exam scores (0–100)
+
+>> Analysis for the Random Forest Model:
+For Training:
+- Extremely high — the model almost perfectly fits the training data.
+- The Suggests strong learning capacity but also potential overfitting
+
+For Testing:
+- Still strong, but noticeably lower than training.
+- Confirms some overfitting: the model captures noise in training that doesn’t generalize well
+
+- Slightly worse than the linear regression’s error.
+- Despite higher training accuracy, the random forest does not outperform linear regression on unseen data
+
+
+Linear regression: More stable, less prone to overfitting, and slightly better test error.
+Random forest: More flexible, captures complex patterns, but overfits and loses generalization power.

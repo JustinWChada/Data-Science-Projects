@@ -1,0 +1,99 @@
+Exam Scores -> Mean: 59.50125, Median: 59.0, Mode: 81
+Final Scores -> Mean: 56.8119875, Median: 56.9, Mode: 60.7
+AI Dependency Scores -> Mean: 5.515125, Median: 6.0, Mode: 4
+AI Usage Minutes -> Mean: 88.989875, Median: 89.0, Mode: 80
+Study Hours Per Day -> Mean: 3.2869375, Median: 3.3, Mode: 3.8
+
+
+## Skewness is a statistical measure of the asymmetry of a probability distribution.
+## A positive skew (right tail) means “a few very high values, many lower values,” and a negative skew (left tail) means the opposite;
+
+>>> The dataset shows that the average exam score is about 59.5 with a median of 59. Most student have an exam score of about 81 marks. Henceforth the dataset is skewed to the right slightly (positively skewed) (students with lower exam scores). However a larger group of students score high (81) than the average pass (59.5).
+
+>>> The average final score is fairly low at about 56.8 with a median of 56.9. Most students passed fairly above average with a final score of about 60.7 marks (percentage). The dataset is slightly right‑skewed or approximately symmetric.
+
+>>> The dataset show us that though the average AI Dependency score is about 5.5 with a median of 6.0, most students depend less on AI (or choose to stick with traditional methods BUT this should be checked against the actual distribution, not just mean/median/mode.). The dataset is skewed to the left (negatively skewed) (students with higher AI Dependency Scores)
+
+>>> The average ai_usage_minutes is 88.98 ~= to the median of 89.0. The data is skewed to the right (positively skewed) slightly
+
+>>> The study_hours_per day is fairly balanced with a mean of 3.287, a median of 3.3 and a mode of 3.8. mean, median, and mode are close, so say they are clustered around 3–4 hours. The data is skewed slightly to the left (negative skew)
+
+
+Variance of Last Exam Scores: 536.4059984375001
+Variance of Final Scores: 181.03388504984375
+Variance of AI Dependency Scores: 8.311021234375
+Variance of AI Usage Time (in Mins): 2722.8375224843753
+Variance of Study Hours Per Day: 2.5029506210937496
+
+>>> Last exam and final scores: “These variances show that exam scores vary quite a lot between students, with last exam scores more spread out than final scores.”
+>>> AI dependency and study hours: “These variances are small, meaning most students are clustered fairly close to the average dependency score and study hours.”
+>>> AI usage minutes: “This variance is large, consistent with usage times ranging from almost 0 up to around 180 minutes; students differ widely in how long they use AI.”
+
+Range of Last Exam Scores: 79
+Range of Final Exam Scores: 83.1
+Range of AI Dependency Scores: 9
+Range of AI Usage Time (in Mins): 179
+Range of Study Hours Per Day: 5.5
+
+Min of Last Exam Scores: 20
+Max of Last Exam Scores: 99
+Min of Final Exam Scores: 12.7
+Max of Final Exam Scores: 95.8
+Min of AI Dependency Scores: 1
+Max of AI Dependency Scores: 10
+Min of AI Usage Time (in Mins): 0
+Max of AI Usage Time (in Mins): 179
+Min of Study Hours Per Day: 0.5
+Max of Study Hours Per Day: 6.0
+
+IQR of Last Exam Scores: 40.25
+IQR of Final Exam Scores: 18.900000000000006
+IQR of AI Dependency Scores: 5.0
+IQR of AI Usage Time (in Mins): 91.0
+IQR of Study Hours Per Day: 2.6999999999999997
+
+
+Gender Frequeny Table:
+         count  percentage
+gender
+Male     3908     48.8500
+Female   3811     47.6375
+Other     281      3.5125
+
+>>> The dataset shows that Male students are slightly more numerous than female students . 
+>>> However there is also a remainder of 3.5% students whose gender is not explicitly defined.
+
+
+AI Usage Purpose Frequency Table:
+                   count  percentage
+ai_usage_purpose
+Exam Prep          1368   20.559062
+Doubt Solving      1342   20.168320
+Homework           1332   20.018034
+Coding             1315   19.762549
+Notes              1297   19.492035
+
+>>> The number of students who use AI seems to be fairly evenly distributed across ai_usage_purposes with a bit less students using ai for coding and notes.
+
+Skewness of Last Exam Scores: 0.013519753173096862
+>>> Last Exam Scores are slightly skewed to the right.
+Skewness of Final Scores: 0.026107037775419475
+>>> Final score is slightly skewed to the right but it is almost normally distributed
+Skewness of AI Dependency Scores: -0.003702456846232031
+>>> AI Dependency score is normally distributed but slightly skewed to the left (negatively skew)
+Skewness of AI Usage Time (in Mins): 0.00418982303450901
+>>> AI Usage time is normally distributed but slightly skewed to the right (positively skew)
+Skewness of Study Hours Per Day: -0.02791737015383412
+>>> Study hours per day is slightly skewed to the left but it is almost normally distributed
+
+
+Reference Code:
+>>> ai_usage_description.py
+
+Reference Pictures:
+>>> Final Exam Score vs AI Usage Time.percentage
+>>> Final Exam Score vs AI Use -2.png
+>>> Final Exam Score vs AI Use.png 
+>>> Final Exam Score vs Study Hours Per Day 
+>>> Final Exam Scores vs AI Dependency Score.png
+>>> Exam Score, Final Score, Study Hours, Usage Time, Dependency Score Box Plots.png 

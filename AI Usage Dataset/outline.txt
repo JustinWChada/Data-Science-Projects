@@ -1,0 +1,54 @@
+Exploring How Students Use AI and Does It Actually Help Grades?
+
+Over the past week I worked on a self‑driven data science project using an “AI impact on student performance” dataset. My goal was to understand how AI usage, study behaviour, and exam outcomes are related.
+
+What I analysed:
+- Descriptive statistics of exam scores, final scores, AI dependency, AI usage time, and study hours (mean, median, mode, variance, range, skewness). 
+
+- Correlation between AI usage (time and study hours with AI) and academic performance using Spearman correlation and regression plots. 
+
+- Does AI usage purpose (exam prep, homework, coding, doubt solving, notes) or AI tool choice relate to improvement rates, using ANOVA and effect size analysis.
+
+- Clustering students by AI usage time and AI dependency score with K‑Means to uncover behavioural segments. 
+
+- Predicting final exam scores using linear regression and random forest, and evaluating them with R² and MSE. 
+
+Key insights  
+- AI usage time shows essentially no meaningful relationship with final exam scores in the dataset i was using. 
+
+- AI dependency and usage purpose do not show strong, statistically significant differences in improvement rates across groups.
+
+- Students form distinct clusters of AI behaviour (e.g., high‑usage–low‑dependency vs. low‑usage–high‑dependency), which could help design targeted interventions.
+
+- A simple linear regression model generalizes slightly better to unseen data than a random forest, which tends to overfit on this dataset.
+
+
+Skills I practiced:
+- Data cleaning  (dropping missing values) and feature engineering in Pandas 
+
+- Exploratory data analysis and distribution profiling (mean/median/mode, variance, skewness, ranges, IQR) 
+
+- Statistical testing: Spearman correlation, ANOVA, p‑values, effect size reasoning 
+
+- Supervised learning: Linear Regression and Random Forest with model evaluation (R², MSE, overfitting analysis) 
+
+- Unsupervised learning: K‑Means clustering and interpreting behavioural clusters 
+
+- Data visualization with Matplotlib library to communicate findings clearly
+
+Tech stack:
+- Python 3.14
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit‑learn
+- Scipy.stats
+
+Github Repo: 
+
+Next steps:  
+To continue learning more on EDA, Data Cleaning and Modelling on other dataset in the future to grow an analytical mindset as a Data Scientist
+
+
+If you’re working on similar projects around AI in education or learning analytics, I’d love to connect and exchange ideas!
+

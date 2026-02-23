@@ -1,0 +1,24 @@
+Reference Code:
+>>> ai_usage_student_clusters.py
+
+
+>>> Chart to see if the people who use ai tools have better performance or not (line 19 - line 30):
+Conclusion: AI Usage seems to have no impact on student performance based on the histogram above
+
+
+>>> Performance Disctribution by AI Usage Purpose (100% Stacked) Comparison between AI-Users and Non-AI-Users (line 34 - line 105):
+- AI usage correlates with a slightly higher proportion of High performers, but the effect is modest.
+- Most students, regardless of AI usage, cluster in Medium performance, showing that AI tools may help but are not a silver bullet.
+- AI does not reduce the number of Low performers significantly, meaning interventions beyond AI (study strategies, teaching quality, motivation) are still crucial.
+- To truly understand impact, we’d need to look at proportions within each usage purpose (e.g., does doubt solving yield more High performers than exam prep?) rather than just overall counts.
+
+
+>>> To see the proportions of performance categories within each AI usage purpose (line 116 - line 124):
+There are more people who passed who used AI for exam prep more than those who only used it for doubt-solving
+
+
+>>> Further analysis on the above (line 129 - line 144)
+Performance Distribution by AI Usage Purpose (100% Stacked)
+- Uniform distribution: The performance distribution is strikingly similar across all AI usage purposes. No single purpose (e.g., Exam Prep vs. Notes) shows a strong advantage in producing higher performance outcomes.
+- Neutral effect of AI purpose: Whether students use AI for coding, doubt solving, exam prep, homework, or notes, the performance outcomes remain largely unchanged.
+- Possible explanation: This suggests that the way AI is used may not be the determining factor in academic success. Instead, other variables (study hours, prior preparation, motivation, or teaching quality) likely play a stronger role.
